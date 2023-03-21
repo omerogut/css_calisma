@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+.imagine{
+    height: 100vh;
+    background-color: black;
+    background-image: url('iki_kart2.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.imagine-oyna{
+    height: 100vh;
+    background-color: black;
+    background-image: url('casino.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.imagine-hakkimizda{
+    height: 100vh;
+    background-image: url('yeşil-ekran.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.imagine-oyunlar{
+    height: 100vh;
+    background-image: url('karma.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.imagine-getin{
+    height: 100vh;
+    background-color: black;
+    background-image: url('siyahkart.jpg');
+    background-size:cover;
+    background-position: center;
+}
+div.bilgiler{
+    text-align: center;
+    position:absolute;
+    top: 270px;
+    left: 680px;
+    width: 250px;
+    height: 200px; 
+}
+.bilgiler h1{
+    font-size: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+
+
+
+a:hover{
+    color: rgb(71, 255, 34);
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.navbar .links{
+    background-color: rgb(61, 68, 206);
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar .logo{
+    background-color: rgb(61, 68, 206);
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+div.specialdesign{
+    text-align: center;
+    margin: auto;
+    position:absolute;
+    top: 50px;
+    left: 500px;
+    width: 300px;
+    height: 100px;
+    color: rgb(25, 190, 226);
+    font-style: normal;
+    font: size 45px;
+    
+}
+div.row{
+    
+    text-align: center;
+    margin: auto;
+    position:absolute;
+    top: 250px;
+    left: 500px;
+    width: 300px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font: size 45px;
+   
+}
+.oyun{
+    width: 320px;
+    height: 320px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+ 
+    background-position: center;
+    background-size: cover;
+}
+.oyun1{
+    background-image: url(poker.webp);
+}
+.oyun2{
+    background-image: url(Ruleta.jpg.webp);
+}
+.oyun3{
+    background-image: url(Bingo.jpg.webp);
+}
+.oyun4{
+    background-image: url(slotlar.webp);
+}
+.oyun5{
+    background-image: url(Blackjack.jpg.webp);
+}
+.oyun6{
+    background-image: url(carkıfelek.webp);
+}
+.oyun7{
+    background-image: url(Keno.jpg.webp);
+}
+.oyun8{
+    background-image: url(Baccarat.jpg.webp);
+}
+div.oyun-sec{
+    text-align: center;
+    position:absolute;
+    top: 270px;
+    left: 500px;
+    width: 550px;
+    height: 200px; 
+}

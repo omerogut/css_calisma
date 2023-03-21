@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <title>Hakkımızda</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="imagine-getin">
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html" title="Ana Sayfa"><i class="fa-sharp fa-solid fa-house"></i> StarBET</a></div >
+            <ul class="links">
+                <li><a href="hakkimizda.html"><i class="fa-solid fa-magnifying-glass"></i> Hakkımızda</a></li>
+                <li><a href="oyunlar.html"><i class="fa-brands fa-discord"></i> Oyunlar</a></li>
+                <li><a href="oyna.html"><i class="fa-solid fa-gamepad"></i> Oyun Oyna</a></li>
+                <li><a href="getin.html"><i class="fa-solid fa-circle-user"></i> Giriş yap / Üye ol <i class="fa-solid fa-user-plus"></i></i></a></li>
+            </ul>
+ 
+         </div>
+         
+    </header>
+
+    <div class="bilgiler">
+
+        <form style="color: rgb(221, 228, 255);" action="getin.html">
+            <h1>Üye Ol</h1>
+            <input type="text" name="name" placeholder="İsim" value="" size="30" maxlength="30">
+            <br><br>
+            <input type="text" name="surname" placeholder="Soyisim" value="" size="30" maxlength="30">
+            <br><br>
+            <input type="email" name="mail" value="" placeholder="Mail" size="30" maxlength="30">
+            <br><br>
+            <input type="password" name="sifre" value="" placeholder="Şifre" size="30" maxlength="30">
+            <br><br>
+            <B> Gender: </B>
+                <INPUT TYPE="radio" NAME="cinsiyet" VALUE="Male">Erkek
+                <INPUT TYPE="radio" NAME="cinsiyet" VALUE="Female">Kız
+                <INPUT TYPE="radio" NAME="cinsiyet" VALUE="Other">Diğer
+            <br><br>
+            
+            <B>YAŞINIZ:</B>
+                <SELECT>
+                    <OPTION VALUE="BOS">
+                <OPTION VALUE="genc">18-24
+                <OPTION VALUE="Orta genc">25-32
+                <OPTION VALUE="Orta">33-40
+                <OPTION VALUE="orta yaslı"> 41-48
+                <OPTION VALUE="yaslı">48-56
+                <OPTION VALUE="cok yaslı">57+
+                </SELECT>
+                <br><br>
+                <button onclick="myFunction()">Hesap Oluştur</button>
+
+                <script>
+                function myFunction() {
+                    alert("Alert from javascript!");
+                    }
+                </script>                
+                <br><br>
+                <button onclick="myFunction()">Giriş Yap</button>
+
+                <script>
+                function myFunction() {
+                    alert("Alert from javascript!");
+                    }
+                </script> 
+        </form>
+    </div>
+
+    </div>
+ 
+</body>
+</html>
